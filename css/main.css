@@ -26,10 +26,14 @@ hr {
 
 
 
-
 h3 {
     font-weight: bolder;
     font-size: 1.5em;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 li {
@@ -148,6 +152,13 @@ b {
     height: 100%;
     width: 70vw;
     margin-left: 15vw;
+}
+
+.interview img{
+    height: 100%;
+    width: 40vw;
+   margin-left: 25vw;
+
 }
 
 
