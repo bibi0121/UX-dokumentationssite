@@ -5,7 +5,8 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: 'Old standard TT';
-    margin: 1vw;
+    margin: 0vw;
+    padding: 0vw;
 }
 
 body {
@@ -117,4 +118,10 @@ b {
     height: 100%;
     width: 80vw;
     margin: 3vw;
+}
+
+.storyboard img {
+    height: 100%;
+    width: 70vw;
+    padding: 50px;
 }
