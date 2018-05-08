@@ -1,0 +1,84 @@
+/* Basis styles */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Old standard TT';
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #c4e4ff;
+}
+
+/* Navigation */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(64, 63, 63, 0.82);
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    background-color: rgba(16, 4, 5, 0.47);
+}
+
+ul.topnav li a.active {
+    background-color: rgba(8, 8, 8, 0.21);
+}
+
+
+.topnav ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    padding-left: 0;
+}
+
+.topnav ul li {
+    position: relative;
+    padding-right: 2em;
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(55, 80, 165);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.33);
+    padding: 12px 16px;
+    z-index: 1;
+    padding: 1em;
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+    padding: 0em 2em;
+}
+
+.dropdown:hover > ul {
+    display: block;
+}
+
+/* Navigation slut */
+
+article {
+    text-align: center;
+    font-size: 3em;
+}
