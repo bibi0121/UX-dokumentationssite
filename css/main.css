@@ -81,4 +81,15 @@ ul.topnav li a.active {
 article {
     text-align: center;
     font-size: 3em;
+    height: 100%;
+}
+
+.observationsbillede img {
+    height: 100%;
+    width: 70vw;
+    padding-left: 5vw;
+}
+
+.observationsbillede h2{
+    padding-left: 5vw;
 }
