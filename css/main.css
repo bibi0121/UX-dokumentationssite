@@ -5,15 +5,26 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: 'Old standard TT';
-    margin: 0vw;
-    padding: 0vw;
+
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
     background-color: #c4e4ff;
 }
+
+footer {
+
+    height: 30px;
+}
+
+hr {
+    border-top: 1px solid black;
+}
+
+
+
 
 h3 {
     font-weight: bolder;
@@ -31,7 +42,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(64, 63, 63, 0.82);
+    background-color: rgb(55, 80, 165);
 }
 
 ul.topnav li {
@@ -42,7 +53,7 @@ ul.topnav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 14px 30px;
     text-decoration: none;
 }
 
@@ -71,8 +82,8 @@ ul.topnav li a.active {
 .dropdown > ul {
     display: none;
     position: absolute;
-    background-color: rgb(55, 80, 165);
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.33);
+    background-color: rgba(71, 94, 172, 0.94);
+    box-shadow: 0px 8px 16px 0px rgba(33, 91, 199, 0.33);
     padding: 12px 16px;
     z-index: 1;
     padding: 1em;
@@ -80,7 +91,7 @@ ul.topnav li a.active {
 
 .dropdown > ul li {
     white-space: nowrap;
-    padding: 0em 2em;
+    padding: 0em 1em;
 }
 
 .dropdown:hover > ul {
