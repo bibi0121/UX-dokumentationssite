@@ -5,12 +5,22 @@ html {
     font-size: 1em;
     line-height: 1.4;
     font-family: 'Old standard TT';
+    margin: 1vw;
 }
 
 body {
     max-width: 1200px;
     margin: 0 auto;
     background-color: #c4e4ff;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+li {
+    font-size: 1em;
 }
 
 /* Navigation */
@@ -81,7 +91,11 @@ ul.topnav li a.active {
 article {
     text-align: center;
     font-size: 3em;
-    height: 100%;
+    padding: 2vw;
+}
+
+b {
+    font-size: 1.5em;
 }
 
 .observationsbillede img {
@@ -90,6 +104,17 @@ article {
     padding-left: 5vw;
 }
 
-.observationsbillede h2{
+.observationsbillede h2 {
     padding-left: 5vw;
+}
+
+.billeder img {
+    height: 50%;
+    width: 40vw;
+}
+
+.personas img {
+    height: 100%;
+    width: 80vw;
+    margin: 3vw;
 }
