@@ -92,7 +92,7 @@ ul.topnav li a.active {
     position: absolute;
     background-color: rgba(71, 94, 172, 0.94);
     box-shadow: 0px 8px 16px 0px rgba(33, 91, 199, 0.33);
-    padding: 10px 15px;
+    padding: 10px 25px;
     z-index: 1;
     margin-right: 10px;
 
@@ -100,7 +100,7 @@ ul.topnav li a.active {
 
 .dropdown > ul li {
     white-space: nowrap;
-    padding: 1 1;
+    padding: 3px 3px;
     margin-right: 10px;
 }
 
@@ -175,31 +175,33 @@ b {
     height: 50%;
     width: 20vw;
 }
-.keaapp_billeder img{
+
+.keaapp_billeder img {
     height: 50%;
     width: 30vw;
 
 }
-.brugerresearch_billeder img{
+
+.brugerresearch_billeder img {
     height: 50%;
     width: 30vw;
 }
 
-.experiencemap img{
+.experiencemap img {
     height: 50%;
     width: 30vw;
 }
 
-.appens_indhold img{
+.appens_indhold img {
     height: 50%;
     width: 30vw;
 }
 
-.app_anden img{
+.app_anden img {
     height: 50%;
     width: 30vw;
 }
-.problemformulering p{
+
+.problemformulering p {
     text-align: center;
 }
-
