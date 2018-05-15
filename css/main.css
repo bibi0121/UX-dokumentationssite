@@ -205,3 +205,9 @@ b {
 .problemformulering p {
     text-align: center;
 }
+
+.persona img {
+    height: 100%;
+    width: 60vw;
+    padding-left: 20vw;
+}
