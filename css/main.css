@@ -212,3 +212,7 @@ b {
     width: 60vw;
     padding-left: 20vw;
 }
+
+.iframe{
+    justify-content: center;
+}
